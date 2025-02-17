@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>School Hub Multilink Website</title>
+    <style>
+        /* Global Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Link Container */
+        .link-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 800px;
+            margin-bottom: 40px;
+        }
+
+        /* Link Styles */
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 15px;
+            text-decoration: none;
+            color: white;
+            background-color: #4CAF50;
+            border-radius: 8px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        a:hover {
+            background-color: #45a049;
+            transform: translateY(-4px);
+        }
+
+        /* Image Styling within Links */
+        a img {
+            margin: 10px 0;
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            transition: transform 0.2s ease;
+        }
+
+        a:hover img {
+            transform: scale(1.05);
+        }
+
+        /* Spacing adjustments for text within links */
+        a span {
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        /* Video container with level adjustments */
+        .video-container {
+            position: relative;
+            margin: 20px 0;
+        }
+
+        /* Adjust the position of the first video */
+        .video1 {
+            position: relative;
+            top: -20px; /* Adjusts the first video higher */
+        }
+
+        /* Adjust the position of the second video */
+        .video2 {
+            position: relative;
+            top: 20px; /* Adjusts the second video lower */
+        }
+
+        /* Button Style */
+        .enter-links-btn {
+            margin-bottom: 30px;
+            padding: 15px 30px;
+            font-size: 1em;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .enter-links-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the School Hub Multilink Website</h1>
+
+    <div class="link-container">
+        <a href="https://www.hmhco.com" target="_blank">
+            <img src="hmh.png" alt="HMH Logo">
+            <span>Visit HMH</span>
+        </a>
+        <a href="https://www.quizizz.com" target="_blank">
+            <img src="Quizizz.png" alt="Quizizz Logo">
+            <span>Visit Quizizz Website</span>
+        </a>
+        <a href="https://www.blooket.com" target="_blank">
+            <img src="Blooket.jpeg" alt="Blooket Logo">
+            <span>Visit Blooket Website</span>
+        </a>
+        <a href="https://teams.microsoft.com/v2/" target="_blank">
+            <img src="Teams.jpeg" alt="Teams Logo">
+            <span>Visit Teams Website</span>
+        </a>
+        <a href="https://www.classdojo.com/v2/" target="_blank">
+            <img src="classdojo.png" alt="ClassDojo Logo">
+            <span>Visit Class Dojo Website</span>
+        </a>
+        
+        <a href="https://islamictreasure.royaltechni.com/login" target="_blank">
+            <img src="IslamicTreasures.png" alt="Islamic Treasures Logo">
+            <span>Visit Islamic Treasures Website</span>
+        
+        </a>
+        <a href="https://www.raz-kids.com/" target="_blank">
+            <img src="Raz Kids.png" alt="Raz Kids Logo">
+            <span>Visit Raz Kids Website</span>
+        </a>
+        <a href="https://kutubee.com/" target="_blank">
+            <img src="Kutubee.png" alt="Kutubee Logo">
+            <span>Visit Kutubee Website</span>
+        </a>
+        <a href="https://apps.explorelearning.com/account/el/login/student?gizmos=1 " target="_blank">
+            <img src="Gizmos.png" alt="Gizmos Logo">
+            <span>Visit Gizmos Website</span>
+        </a>
+    </div>
+
+    
+    
+</body>
+</html>
